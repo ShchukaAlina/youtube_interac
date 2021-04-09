@@ -2,9 +2,22 @@
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:hover .icon {
+    fill: red;
+}
 /*header*/
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
     padding: 20px 70px 50px 32px;
     display: flex;
     align-items: center;
@@ -75,20 +88,78 @@
     opacity: 0.24;
 }
 
-/*aside?*/
-
+/*aside menu*/
+.container-menu {
+    position: fixed;
+    top: 114px;
+    left: 0;
+    height: calc(100% - 114px);
+    width: 12%;
+    overflow-y: auto;
+    margin-left: 30px;
+}
+.sidebar {
+    margin-bottom: 60px;
+}
+.nav-group {
+    margin-bottom: 28px;
+    list-style-type: none;
+    padding: 0;
+}
 .nav-item {
+    margin-bottom: 28px;
+}
+.nav-text {
+    margin-left: 15px;
+}
+.nav-link {
+    display: flex;
+    align-content: center;
+    margin-right: 13px;
+    color: #898989;
+}
+.icon {
+    fill: #898989;
+}
+
+/*aside subscriptions*/
+.subscriptions-title {
+    font-weight: bold;
+}
+.subscriptions-group {
+    list-style-type: none;
+    padding-left: 0;
+}
+.subscriptions-item {
+    margin-bottom: 23px;
+}
+.subscriptions-link:hover {
+    color: red;
+}
+.subscriptions-link {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    color: #898989;
+}
+.user-text {
+    margin-left: 10px;
+}
+.user-img {
+    width: 26px;
+    height: 26px;
+}
+.settings {
+    margin-top: 105px;
+    margin-bottom: 20px;
+}
+.settings-link {
     display: flex;
     align-content: center;
 }
-
-.nav-link {
-    margin-left: ;
-    text-decoration: none;
+.settings-title {
+    color: #898989;
+    margin-left: 12px;
 }
-
-
-
-
 
 
