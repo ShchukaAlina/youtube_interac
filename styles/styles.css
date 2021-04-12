@@ -58,8 +58,10 @@ a:hover .icon {
 }
 
 .input-search {
+    width: 110%;
     background-color: transparent;
     border: none;
+    outline: none;
     padding: 12px 23px;
 }
 
@@ -94,7 +96,7 @@ a:hover .icon {
     top: 114px;
     left: 0;
     height: calc(100% - 114px);
-    width: 12%;
+    width: 10%;
     overflow-y: auto;
     margin-left: 30px;
 }
@@ -161,5 +163,45 @@ a:hover .icon {
     color: #898989;
     margin-left: 12px;
 }
-
-
+.video-container {
+    margin-left: 20px;
+}
+.blogger-container {
+    position: relative;
+    top: 100px;
+    left: 250px;
+    width: 80%;
+    height: 100px;
+}
+.blogger {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+.blogger-name {
+    margin-left: 20px;
+}
+.splide {
+    width: 100%;
+}
+.video-slide {
+    width: 100%;
+}
+.splide__arrows {
+    margin-top: 20px;
+}
+.video-duration {
+    position: absolute;
+    bottom: 25px;
+    left: 230px;
+    color: #EBEBEB;
+    border-radius: 12px;
+    background-color: rgba(88, 27, 27, 0.3);
+    padding: 5px;
+}
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    color: #C2C2C2;
+}

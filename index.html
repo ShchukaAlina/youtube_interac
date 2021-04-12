@@ -8,6 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                perPage: 5,
+                gap: '1rem',
+            } ).mount();
+        } );
+    </script>
     <title>YouTube</title>
 </head>
 <body>
@@ -184,5 +195,69 @@
             </a>
         </aside>
     </div>
+
+    <div class="video-container">
+        <div class="blogger-container">
+            <div class="blogger">
+                <img src="img/user.svg" alt="Blogger">
+                <span class="blogger-name">Monika Span</span>
+            </div>
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img class="video-slide" src="img/Cover.jpg" alt="Video name">
+                            <span class="video-duration">4:15</span>
+                            <div class="info-block">
+                                <span>80k views &#8226; 3 days ago</span>
+                                <span>Monika Span</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
